@@ -1,0 +1,30 @@
+{
+  "name": "bvanderwoude/crud",
+  "description": "",
+  "type": "library",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Bauke van der Woude",
+      "email": "baukevanderwoude@outlook.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Baukevdw\\Crud\\": "classes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Baukevdw\\Crud\\Test\\": "tests/"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "neat/object": "dev-master",
+    "neat/http": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
